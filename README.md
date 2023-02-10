@@ -1,8 +1,8 @@
 This is a solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI). 
 
+![[olgaborodchak-github-io-Interactive-rating-component-3.png](https://postimg.cc/ykMsTFSN)](./screenshot.jpg)
+![[olgaborodchak-github-io-Interactive-rating-component-4.png](https://postimg.cc/w77j2qfw)](./screenshot.jpg)
 
-[olgaborodchak-github-io-Interactive-rating-component-3.png](https://postimg.cc/ykMsTFSN)
-[olgaborodchak-github-io-Interactive-rating-component-4.png](https://postimg.cc/w77j2qfw)
 
 
 - Solution URL: [https://github.com/OlgaBorodchak/Interactive-rating-component.git](https://your-solution-url.com)
