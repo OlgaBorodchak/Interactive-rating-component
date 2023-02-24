@@ -57,11 +57,18 @@ p {
 
 .rating-container {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     margin-top: 2.6em;
 }
 
-.rating-btn {
+fieldset {
+    display: flex;
+    justify-content: space-between;
+    border: none;
+}
+
+.rating-btn, label {
     color: hsl(217, 12%, 63%);
     font-size: 1.5rem;
     width: 3.3em;
@@ -73,13 +80,17 @@ p {
     align-items: center;
 }
 
-.rating-btn:hover {
+input {
+    appearance: none;
+}
+
+.rating-btn label:hover {
     background-color: hsl(25, 97%, 53%);
     cursor: pointer;
     color: hsl(0, 0%, 100%);
 }
 
-.active {
+.active label {
     background-color:  hsl(217, 12%, 63%);
     color: hsl(0, 0%, 100%);
 }
@@ -138,7 +149,20 @@ h2 {
     text-align: center;
 }
 
-.d-none {
+.d-none  {
     display: none;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
