@@ -27,14 +27,32 @@
         <h1>How did we do?</h1>
         <p> Please let us know how we did with your support request. All feedback is appreciated 
             to help us improve our offering!</p>
-        <div class="rating-container">
-          <div class="rating-btn">1</div>
-          <div class="rating-btn">2</div>
-          <div class="rating-btn">3</div>
-          <div class="rating-btn active">4</div>
-          <div class="rating-btn">5</div>
-        </div> 
-        <button class="submit-btn" type="submit">Submit</button>  
+        <form class="rating-container">
+          <fieldset>
+            <legend class="visually-hidden">Please select a rating</legend>
+            <div class="rating-btn">
+              <label for="one">1</label>
+              <input type="radio" name="rating" id="one" value="1">
+            </div>
+            <div class="rating-btn">
+              <input type="radio" name="rating" id="two" value="2">
+              <label for="two">2</label>
+            </div>
+            <div class="rating-btn">
+              <input type="radio" name="rating" id="three" value="3">
+              <label for="three">3</label>
+            </div>
+            <div class="rating-btn">
+              <input type="radio" name="rating" id="four" value="4">
+              <label for="four">4</label>
+            </div>
+            <div class="rating-btn">
+              <input type="radio" name="rating" id="five" value="5">
+              <label for="five">5</label>
+            </div>
+          </fieldset>
+          <button class="submit-btn" type="submit">Submit</button>  
+        </form>
       </div>
       <div class="thank-you-card d-none">
         <img src="illustration-thank-you.svg" alt="">
