@@ -13,6 +13,7 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 ### Built with
 
-- HTML5 markup
+- HTML5 
 - CSS
 - Flexbox
+- JS
